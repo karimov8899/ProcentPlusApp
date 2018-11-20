@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProcentPlus.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>28ED9A7FE43861CC37F98B0604E719183A89BEBB</string>
+				<key>dateExpires</key>
+				<string>03.10.2019</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>76CPM5B656.com.davydov.ProcentPlus</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>76CPM5B656</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>76CPM5B656.com.davydov.ProcentPlus</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>ProcentPlus.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5b37dcf6-7ed1-41fa-8a96-57b00034a189</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.davydov.ProcentPlus</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>76CPM5B656</string>
+				<key>name</key>
+				<string>Roman Davydov</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

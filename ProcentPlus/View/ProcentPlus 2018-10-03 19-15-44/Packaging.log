@@ -1,0 +1,775 @@
+2018-10-03 12:15:09 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fe192365dc0; archive(resolved)='<IDEArchive: 0x7fe1aead2870>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fe192365dc0; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fe192638fd0; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe190f3b790; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe193a64220; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe193a829e0; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe191cdce60; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe1af33a410; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe193a9e9d0; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe1ad828040; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fe1b7daa5c0; teamID='76CPM5B656', teamName='Roman Davydov', teamType='Individual', username='z.sibir@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fe1af4b14a0; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='(null)'>
+	<IDEDistributionContext: 0x7fe1afd48c10; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fe192e64990>', team='(null)'>
+	<IDEDistributionContext: 0x7fe1af1bc480; archive = '<IDEArchive: 0x7fe1aead2870>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fe192365dc0>
+2018-10-03 12:15:09 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-10-03 12:15:09 +0000  Processing step: IDEDistributionCopyItemStep
+2018-10-03 12:15:09 +0000  Running /usr/bin/ditto '-V' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app'
+2018-10-03 12:15:09 +0000  >>> Copying /Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app 
+2018-10-03 12:15:09 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-10-03 12:15:09 +0000  12087 bytes for ./_CodeSignature/CodeResources
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-wgg-r7-vEE.nib ... 
+2018-10-03 12:15:09 +0000  1297 bytes for ./Base.lproj/Main.storyboardc/UIViewController-wgg-r7-vEE.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-fYv-Pc-AHJ.nib ... 
+2018-10-03 12:15:09 +0000  940 bytes for ./Base.lproj/Main.storyboardc/UIViewController-fYv-Pc-AHJ.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/Main.storyboardc/S85-BR-09b-view-xVM-z6-0KN.nib ... 
+2018-10-03 12:15:09 +0000  6084 bytes for ./Base.lproj/Main.storyboardc/S85-BR-09b-view-xVM-z6-0KN.nib
+copying file ./Base.lproj/Main.storyboardc/B3B-vE-WJx-view-ILT-eS-xa8.nib ... 
+2018-10-03 12:15:09 +0000  7002 bytes for ./Base.lproj/Main.storyboardc/B3B-vE-WJx-view-ILT-eS-xa8.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-59p-25-2by.nib ... 
+2018-10-03 12:15:09 +0000  1434 bytes for ./Base.lproj/Main.storyboardc/UIViewController-59p-25-2by.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-S85-BR-09b.nib ... 
+2018-10-03 12:15:09 +0000  939 bytes for ./Base.lproj/Main.storyboardc/UIViewController-S85-BR-09b.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-zAZ-c9-Vi0.nib ... 
+2018-10-03 12:15:09 +0000  1974 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-zAZ-c9-Vi0.nib
+copying file ./Base.lproj/Main.storyboardc/Umx-DX-kGh-view-Qjb-lO-9W9.nib ... 
+2018-10-03 12:15:09 +0000  5621 bytes for ./Base.lproj/Main.storyboardc/Umx-DX-kGh-view-Qjb-lO-9W9.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-10-03 12:15:09 +0000  1374 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-fRh-UU-l82.nib ... 
+2018-10-03 12:15:09 +0000  1438 bytes for ./Base.lproj/Main.storyboardc/UIViewController-fRh-UU-l82.nib
+copying file ./Base.lproj/Main.storyboardc/4Ws-kU-NWg-view-0So-gq-ZU4.nib ... 
+2018-10-03 12:15:09 +0000  7827 bytes for ./Base.lproj/Main.storyboardc/4Ws-kU-NWg-view-0So-gq-ZU4.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-10-03 12:15:09 +0000  7824 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/59p-25-2by-view-maF-9S-uax.nib ... 
+2018-10-03 12:15:09 +0000  8319 bytes for ./Base.lproj/Main.storyboardc/59p-25-2by-view-maF-9S-uax.nib
+copying file ./Base.lproj/Main.storyboardc/wgg-r7-vEE-view-D2s-no-TQH.nib ... 
+2018-10-03 12:15:09 +0000  7174 bytes for ./Base.lproj/Main.storyboardc/wgg-r7-vEE-view-D2s-no-TQH.nib
+copying file ./Base.lproj/Main.storyboardc/fYv-Pc-AHJ-view-QjP-De-W1T.nib ... 
+2018-10-03 12:15:09 +0000  4609 bytes for ./Base.lproj/Main.storyboardc/fYv-Pc-AHJ-view-QjP-De-W1T.nib
+copying file ./Base.lproj/Main.storyboardc/fRh-UU-l82-view-aSY-lr-CDA.nib ... 
+2018-10-03 12:15:09 +0000  9133 bytes for ./Base.lproj/Main.storyboardc/fRh-UU-l82-view-aSY-lr-CDA.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-10-03 12:15:09 +0000  751 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UITabBarController-zpc-nu-wSZ.nib ... 
+2018-10-03 12:15:09 +0000  3360 bytes for ./Base.lproj/Main.storyboardc/UITabBarController-zpc-nu-wSZ.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-10-03 12:15:09 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-10-03 12:15:09 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-10-03 12:15:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-10-03 12:15:09 +0000  copying file ./Assets.car ... 
+2018-10-03 12:15:09 +0000  233640 bytes for ./Assets.car
+2018-10-03 12:15:09 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-10-03 12:15:09 +0000  349424 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-10-03 12:15:09 +0000  496688 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-10-03 12:15:09 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-10-03 12:15:10 +0000  69852448 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-10-03 12:15:10 +0000  1737360 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-10-03 12:15:10 +0000  1464576 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-10-03 12:15:10 +0000  542144 bytes for ./Frameworks/libswiftMetal.dylib
+2018-10-03 12:15:10 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-10-03 12:15:10 +0000  3099200 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-10-03 12:15:10 +0000  645104 bytes for ./Frameworks/libswiftos.dylib
+2018-10-03 12:15:10 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-10-03 12:15:10 +0000  299760 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-10-03 12:15:10 +0000  814096 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-10-03 12:15:10 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-10-03 12:15:10 +0000  353472 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-10-03 12:15:10 +0000  31351760 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-10-03 12:15:10 +0000  copying file ./embedded.mobileprovision ... 
+9533 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2018-10-03 12:15:10 +0000  1113 bytes for ./Info.plist
+copying file ./ProcentPlus ... 
+2018-10-03 12:15:10 +0000  391088 bytes for ./ProcentPlus
+copying file ./PkgInfo ... 
+2018-10-03 12:15:10 +0000  8 bytes for ./PkgInfo
+2018-10-03 12:15:10 +0000  /usr/bin/ditto exited with 0
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe19270cb90 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe1ad436840:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCore.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1923753f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe1af71f6c0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1b09bae00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe1a94761e0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe191d18e90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe1af183030:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1afee15a0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe1afb1ccb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1b0a540e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe1a794d260:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1ac0c7110 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe1afbc69f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1919d9fd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe1af1f22f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftMetal.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1add0f7b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe1a2e3a630:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe192c9c650 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe1af8babb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1ae97cdf0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe192449d90:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-10-03 12:15:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe1afaef2a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe1adc8d530:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftos.dylib'>'>
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-10-03 12:15:10 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-10-03 12:15:10 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-10-03 12:15:10 +0000  Running /usr/bin/ditto '-V' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/BCSymbolMaps/930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/BCSymbolMaps/930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap'
+2018-10-03 12:15:10 +0000  >>> Copying /Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/BCSymbolMaps/930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap 
+2018-10-03 12:15:10 +0000  copying file ./930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap ... 
+2018-10-03 12:15:10 +0000  31515 bytes for ./930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap
+2018-10-03 12:15:10 +0000  /usr/bin/ditto exited with 0
+2018-10-03 12:15:10 +0000  Processing step: IDEDistributionSymbolsStep
+2018-10-03 12:15:10 +0000  Processing symbols for libswiftCore.dylib
+2018-10-03 12:15:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:10 +0000  building file list ... 
+2018-10-03 12:15:10 +0000   0 files...2018-10-03 12:15:10 +0000  1 file to consider
+2018-10-03 12:15:10 +0000  
+2018-10-03 12:15:10 +0000  sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 66.62M  speedup is 635022.25
+2018-10-03 12:15:10 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:10 +0000  building file list ... 
+2018-10-03 12:15:10 +0000   0 files...2018-10-03 12:15:10 +0000  7 files to consider
+2018-10-03 12:15:10 +0000  ./
+2018-10-03 12:15:10 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+2018-10-03 12:15:10 +0000  ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:10 +0000  
+sent 254 bytes  received 50 bytes  608.00 bytes/sec
+2018-10-03 12:15:10 +0000  total size is 159.21K  speedup is 536.27
+2018-10-03 12:15:10 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:10 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCore.dylib'
+2018-10-03 12:15:10 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCore.dylib [armv7, 0.387438 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCore.dylib [armv7s, 0.387438 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCore.dylib [arm64, 0.387438 seconds]:
+2018-10-03 12:15:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:10 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-10-03 12:15:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:10 +0000  building file list ... 
+2018-10-03 12:15:10 +0000   0 files...2018-10-03 12:15:10 +0000  1 file to consider
+2018-10-03 12:15:10 +0000  
+sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 292.73K  speedup is 2498.00
+2018-10-03 12:15:10 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:10 +0000  building file list ... 
+2018-10-03 12:15:10 +0000   0 files...2018-10-03 12:15:10 +0000  7 files to consider
+2018-10-03 12:15:10 +0000  ./
+2018-10-03 12:15:10 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:10 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:10 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:10 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreFoundation.dylib'
+2018-10-03 12:15:10 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreFoundation.dylib [armv7, 0.001377 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreFoundation.dylib [armv7s, 0.001377 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreFoundation.dylib [arm64, 0.001377 seconds]:
+2018-10-03 12:15:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:10 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-10-03 12:15:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:10 +0000  building file list ... 
+2018-10-03 12:15:10 +0000   0 files...2018-10-03 12:15:10 +0000  1 file to consider
+2018-10-03 12:15:10 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 1.66M  speedup is 14723.39
+2018-10-03 12:15:10 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:10 +0000  building file list ... 
+2018-10-03 12:15:10 +0000   0 files...2018-10-03 12:15:10 +0000  7 files to consider
+2018-10-03 12:15:10 +0000  ./
+2018-10-03 12:15:10 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:10 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+2018-10-03 12:15:10 +0000  total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:10 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:10 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreGraphics.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreGraphics.dylib [armv7, 0.010939 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreGraphics.dylib [armv7s, 0.010939 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreGraphics.dylib [arm64, 0.010939 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 341.23K  speedup is 3038.47
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+2018-10-03 12:15:11 +0000  total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreImage.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreImage.dylib [armv7, 0.001213 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreImage.dylib [armv7s, 0.001213 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftCoreImage.dylib [arm64, 0.001213 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftDarwin.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 92 bytes  received 20 bytes  224.00 bytes/sec
+total size is 795.02K  speedup is 7268.71
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDarwin.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDarwin.dylib [armv7, 0.005326 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDarwin.dylib [armv7s, 0.005326 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDarwin.dylib [arm64, 0.005326 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftDispatch.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+2018-10-03 12:15:11 +0000  sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 2.96M  speedup is 27185.96
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+2018-10-03 12:15:11 +0000  total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDispatch.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDispatch.dylib [armv7, 0.023035 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDispatch.dylib [armv7s, 0.023035 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftDispatch.dylib [arm64, 0.023035 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftFoundation.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+2018-10-03 12:15:11 +0000  total size is 29.90M  speedup is 270273.79
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+2018-10-03 12:15:11 +0000  sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftFoundation.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftFoundation.dylib [armv7, 0.152439 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftFoundation.dylib [armv7s, 0.152439 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftFoundation.dylib [arm64, 0.152439 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftMetal.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+total size is 529.44K  speedup is 4884.18
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftMetal.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftMetal.dylib [armv7, 0.002223 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftMetal.dylib [armv7s, 0.002223 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftMetal.dylib [arm64, 0.002223 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 485.05K  speedup is 4281.79
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+2018-10-03 12:15:11 +0000  sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftObjectiveC.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftObjectiveC.dylib [armv7, 0.002784 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftObjectiveC.dylib [armv7s, 0.002784 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftObjectiveC.dylib [arm64, 0.002784 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 345.19K  speedup is 3047.17
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+2018-10-03 12:15:11 +0000  sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftQuartzCore.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftQuartzCore.dylib [armv7, 0.001682 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftQuartzCore.dylib [armv7s, 0.001682 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftQuartzCore.dylib [arm64, 0.001682 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftUIKit.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+total size is 1.40M  speedup is 13194.38
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftUIKit.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftUIKit.dylib [armv7, 0.008941 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftUIKit.dylib [armv7s, 0.008941 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftUIKit.dylib [arm64, 0.008941 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Processing symbols for libswiftos.dylib
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  1 file to consider
+2018-10-03 12:15:11 +0000  
+sent 88 bytes  received 20 bytes  216.00 bytes/sec
+total size is 629.98K  speedup is 5973.19
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '--link-dest' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/dSYMs/' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3'
+2018-10-03 12:15:11 +0000  building file list ... 
+2018-10-03 12:15:11 +0000   0 files...2018-10-03 12:15:11 +0000  7 files to consider
+2018-10-03 12:15:11 +0000  ./
+2018-10-03 12:15:11 +0000  ProcentPlus.app.dSYM/
+ProcentPlus.app.dSYM/Contents/
+ProcentPlus.app.dSYM/Contents/Resources/
+ProcentPlus.app.dSYM/Contents/Resources/DWARF/
+2018-10-03 12:15:11 +0000  
+2018-10-03 12:15:11 +0000  sent 266 bytes  received 62 bytes  656.00 bytes/sec
+total size is 159.21K  speedup is 497.03
+2018-10-03 12:15:11 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:11 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftos.dylib'
+2018-10-03 12:15:11 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftos.dylib [armv7, 0.002927 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftos.dylib [armv7s, 0.002927 seconds]:
+/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/libswiftos.dylib [arm64, 0.002927 seconds]:
+2018-10-03 12:15:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-10-03 12:15:11 +0000  Excluding symbols for ProcentPlus.app
+2018-10-03 12:15:11 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-10-03 12:15:11 +0000  Running /usr/bin/ditto '-V' '/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/SwiftSupport' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/SwiftSupport'
+2018-10-03 12:15:11 +0000  >>> Copying /Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/SwiftSupport 
+2018-10-03 12:15:11 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-10-03 12:15:11 +0000  352342 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-10-03 12:15:11 +0000  575454 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftCore.dylib ... 
+2018-10-03 12:15:12 +0000  102979656 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-10-03 12:15:12 +0000  2311364 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-10-03 12:15:12 +0000  1954035 bytes for ./iphoneos/libswiftUIKit.dylib
+copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-10-03 12:15:12 +0000  625909 bytes for ./iphoneos/libswiftMetal.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-10-03 12:15:12 +0000  4187990 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2018-10-03 12:15:12 +0000  808557 bytes for ./iphoneos/libswiftos.dylib
+2018-10-03 12:15:12 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-10-03 12:15:12 +0000  291865 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-10-03 12:15:12 +0000  1040821 bytes for ./iphoneos/libswiftDarwin.dylib
+2018-10-03 12:15:12 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-10-03 12:15:12 +0000  379233 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-10-03 12:15:12 +0000  44414348 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-10-03 12:15:12 +0000  /usr/bin/ditto exited with 0
+2018-10-03 12:15:12 +0000  Processing step: IDEDistributionAppThinningStep
+2018-10-03 12:15:12 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-10-03 12:15:12 +0000  Processing step: IDEDistributionODRStep
+2018-10-03 12:15:12 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe19270cb90 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe1ad436840:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCore.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1923753f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe1af71f6c0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1b09bae00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe1a94761e0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe191d18e90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe1af183030:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1afee15a0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe1afb1ccb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1b0a540e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe1a794d260:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1ac0c7110 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe1afbc69f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1919d9fd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe1af1f22f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftMetal.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1add0f7b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe1a2e3a630:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe192c9c650 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe1af8babb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1ae97cdf0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe192449d90:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-10-03 12:15:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe1afaef2a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe1adc8d530:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftos.dylib'>'>
+2018-10-03 12:15:12 +0000  Running /usr/bin/xattr '-crs' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app'
+2018-10-03 12:15:12 +0000  /usr/bin/xattr exited with 0
+2018-10-03 12:15:12 +0000  Processing step: IDEDistributionCodesignStep
+2018-10-03 12:15:12 +0000  Entitlements for <IDEDistributionItem: 0x7fe19270cb90 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe1ad436840:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-10-03 12:15:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe19270cb90 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe1ad436840:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsriTW19
+2018-10-03 12:15:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsriTW19' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCore.dylib'
+2018-10-03 12:15:12 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-10-03 12:15:13 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:13 +0000  Entitlements for <IDEDistributionItem: 0x7fe1923753f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe1af71f6c0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-10-03 12:15:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1923753f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe1af71f6c0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementshbgDuu
+2018-10-03 12:15:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementshbgDuu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-10-03 12:15:13 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:13 +0000  Entitlements for <IDEDistributionItem: 0x7fe1b09bae00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe1a94761e0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-10-03 12:15:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1b09bae00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe1a94761e0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlements3oO7IS
+2018-10-03 12:15:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlements3oO7IS' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-10-03 12:15:13 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:13 +0000  Entitlements for <IDEDistributionItem: 0x7fe191d18e90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe1af183030:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-10-03 12:15:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe191d18e90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe1af183030:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsapoHAv
+2018-10-03 12:15:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsapoHAv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib'
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-10-03 12:15:13 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:13 +0000  Entitlements for <IDEDistributionItem: 0x7fe1afee15a0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe1afb1ccb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-10-03 12:15:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1afee15a0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe1afb1ccb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsGzViiU
+2018-10-03 12:15:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsGzViiU' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDarwin.dylib'
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-10-03 12:15:13 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:13 +0000  Entitlements for <IDEDistributionItem: 0x7fe1b0a540e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe1a794d260:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-10-03 12:15:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1b0a540e0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe1a794d260:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsC53NAZ
+2018-10-03 12:15:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsC53NAZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDispatch.dylib'
+2018-10-03 12:15:13 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-10-03 12:15:14 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe1ac0c7110 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe1afbc69f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-10-03 12:15:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1ac0c7110 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe1afbc69f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsaP4U7d
+2018-10-03 12:15:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsaP4U7d' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftFoundation.dylib'
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-10-03 12:15:14 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe1919d9fd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe1af1f22f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-10-03 12:15:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1919d9fd0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe1af1f22f0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsnflUYs
+2018-10-03 12:15:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsnflUYs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftMetal.dylib'
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-10-03 12:15:14 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe1add0f7b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe1a2e3a630:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-10-03 12:15:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1add0f7b0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe1a2e3a630:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsAKoZ1M
+2018-10-03 12:15:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsAKoZ1M' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib'
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-10-03 12:15:14 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe192c9c650 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe1af8babb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-10-03 12:15:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe192c9c650 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe1af8babb0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsrrWBo7
+2018-10-03 12:15:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsrrWBo7' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib'
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-10-03 12:15:14 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe1ae97cdf0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe192449d90:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-10-03 12:15:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1ae97cdf0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe192449d90:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementssSepR8
+2018-10-03 12:15:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementssSepR8' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftUIKit.dylib'
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-10-03 12:15:14 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe1afaef2a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe1adc8d530:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-10-03 12:15:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1afaef2a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe1adc8d530:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsoAGYdi
+2018-10-03 12:15:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsoAGYdi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftos.dylib'
+2018-10-03 12:15:14 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-10-03 12:15:15 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-10-03 12:15:15 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:15 +0000  Entitlements for <IDEDistributionItem: 0x7fe1aebea6b0 'com.davydov.ProcentPlus' '<DVTFilePath:0x7fe1ad24baf0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app'>'>: {
+    "application-identifier" = "76CPM5B656.com.davydov.ProcentPlus";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 76CPM5B656;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "76CPM5B656.com.davydov.ProcentPlus"
+    );
+}
+2018-10-03 12:15:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe1aebea6b0 'com.davydov.ProcentPlus' '<DVTFilePath:0x7fe1ad24baf0:'/Users/fesco/Library/Developer/Xcode/Archives/2018-10-03/ProcentPlus 03.10.2018, 19.10.xcarchive/Products/Applications/ProcentPlus.app'>'> to: /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsPIIlQn
+2018-10-03 12:15:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '28ED9A7FE43861CC37F98B0604E719183A89BEBB' '--entitlements' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/entitlementsPIIlQn' '--preserve-metadata=identifier,flags,runtime' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app'
+2018-10-03 12:15:15 +0000  /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root/Payload/ProcentPlus.app: signed app bundle with Mach-O thin (arm64) [com.davydov.ProcentPlus]
+2018-10-03 12:15:15 +0000  /usr/bin/codesign exited with 0
+2018-10-03 12:15:15 +0000  Processing step: IDEDistributionZipODRItemStep
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2018-10-03 12:15:15 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-10-03 12:15:15 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Symbols' '--link-dest' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root'
+2018-10-03 12:15:15 +0000  building file list ... 
+2018-10-03 12:15:15 +0000   0 files...2018-10-03 12:15:15 +0000  37 files to consider
+2018-10-03 12:15:15 +0000  Symbols/
+2018-10-03 12:15:15 +0000  
+sent 1.96K bytes  received 26 bytes  3.97K bytes/sec
+total size is 18.94M  speedup is 9762.51
+2018-10-03 12:15:15 +0000  /usr/bin/rsync exited with 0
+2018-10-03 12:15:15 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root' '/var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Packages/ProcentPlus.ipa'
+2018-10-03 12:15:15 +0000  >>> Copying /var/folders/ty/vg0p4qsj6m34k2ks_1bs1z2w0000gn/T/XcodeDistPipeline.BI3/Root 
+2018-10-03 12:15:15 +0000  copying file ./BCSymbolMaps/930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap ... 
+2018-10-03 12:15:15 +0000  31515 bytes for ./BCSymbolMaps/930A9123-23F7-39B1-AC9E-946B48207D5D.bcsymbolmap
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/_CodeSignature/CodeResources ... 
+2018-10-03 12:15:15 +0000  12087 bytes for ./Payload/ProcentPlus.app/_CodeSignature/CodeResources
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-wgg-r7-vEE.nib ... 
+1297 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-wgg-r7-vEE.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-fYv-Pc-AHJ.nib ... 
+2018-10-03 12:15:15 +0000  940 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-fYv-Pc-AHJ.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/S85-BR-09b-view-xVM-z6-0KN.nib ... 
+2018-10-03 12:15:15 +0000  6084 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/S85-BR-09b-view-xVM-z6-0KN.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/B3B-vE-WJx-view-ILT-eS-xa8.nib ... 
+2018-10-03 12:15:15 +0000  7002 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/B3B-vE-WJx-view-ILT-eS-xa8.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-59p-25-2by.nib ... 
+2018-10-03 12:15:15 +0000  1434 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-59p-25-2by.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-S85-BR-09b.nib ... 
+2018-10-03 12:15:15 +0000  939 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-S85-BR-09b.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UINavigationController-zAZ-c9-Vi0.nib ... 
+2018-10-03 12:15:15 +0000  1974 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UINavigationController-zAZ-c9-Vi0.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/Umx-DX-kGh-view-Qjb-lO-9W9.nib ... 
+2018-10-03 12:15:15 +0000  5621 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/Umx-DX-kGh-view-Qjb-lO-9W9.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+1374 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-fRh-UU-l82.nib ... 
+2018-10-03 12:15:15 +0000  1438 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UIViewController-fRh-UU-l82.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/4Ws-kU-NWg-view-0So-gq-ZU4.nib ... 
+2018-10-03 12:15:15 +0000  7827 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/4Ws-kU-NWg-view-0So-gq-ZU4.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-10-03 12:15:15 +0000  7824 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/59p-25-2by-view-maF-9S-uax.nib ... 
+2018-10-03 12:15:15 +0000  8319 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/59p-25-2by-view-maF-9S-uax.nib
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/wgg-r7-vEE-view-D2s-no-TQH.nib ... 
+2018-10-03 12:15:15 +0000  7174 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/wgg-r7-vEE-view-D2s-no-TQH.nib
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/fYv-Pc-AHJ-view-QjP-De-W1T.nib ... 
+2018-10-03 12:15:15 +0000  4609 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/fYv-Pc-AHJ-view-QjP-De-W1T.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/fRh-UU-l82-view-aSY-lr-CDA.nib ... 
+2018-10-03 12:15:15 +0000  9133 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/fRh-UU-l82-view-aSY-lr-CDA.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-10-03 12:15:15 +0000  751 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UITabBarController-zpc-nu-wSZ.nib ... 
+3360 bytes for ./Payload/ProcentPlus.app/Base.lproj/Main.storyboardc/UITabBarController-zpc-nu-wSZ.nib
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-10-03 12:15:15 +0000  1136 bytes for ./Payload/ProcentPlus.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-10-03 12:15:15 +0000  832 bytes for ./Payload/ProcentPlus.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/ProcentPlus.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/ProcentPlus.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Assets.car ... 
+2018-10-03 12:15:15 +0000  233640 bytes for ./Payload/ProcentPlus.app/Assets.car
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-10-03 12:15:15 +0000  349776 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-10-03 12:15:15 +0000  497056 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftObjectiveC.dylib
+2018-10-03 12:15:15 +0000  copying file ./Payload/ProcentPlus.app/Frameworks/libswiftCore.dylib ... 
+2018-10-03 12:15:17 +0000  69852800 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-10-03 12:15:18 +0000  1737712 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftCoreGraphics.dylib
+2018-10-03 12:15:18 +0000  copying file ./Payload/ProcentPlus.app/Frameworks/libswiftUIKit.dylib ... 
+2018-10-03 12:15:18 +0000  1464928 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftMetal.dylib ... 
+2018-10-03 12:15:18 +0000  542496 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftDispatch.dylib ... 
+2018-10-03 12:15:18 +0000  3099552 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftos.dylib ... 
+2018-10-03 12:15:18 +0000  645456 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftos.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-10-03 12:15:18 +0000  300112 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftDarwin.dylib ... 
+2018-10-03 12:15:18 +0000  814448 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-10-03 12:15:18 +0000  353824 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/ProcentPlus.app/Frameworks/libswiftFoundation.dylib ... 
+2018-10-03 12:15:19 +0000  31352112 bytes for ./Payload/ProcentPlus.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/ProcentPlus.app/embedded.mobileprovision ... 
+2018-10-03 12:15:19 +0000  7545 bytes for ./Payload/ProcentPlus.app/embedded.mobileprovision
+copying file ./Payload/ProcentPlus.app/Info.plist ... 
+1113 bytes for ./Payload/ProcentPlus.app/Info.plist
+copying file ./Payload/ProcentPlus.app/ProcentPlus ... 
+2018-10-03 12:15:19 +0000  333744 bytes for ./Payload/ProcentPlus.app/ProcentPlus
+copying file ./Payload/ProcentPlus.app/PkgInfo ... 
+2018-10-03 12:15:19 +0000  8 bytes for ./Payload/ProcentPlus.app/PkgInfo
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-10-03 12:15:19 +0000  307536 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-10-03 12:15:19 +0000  454800 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-10-03 12:15:21 +0000  69810544 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-10-03 12:15:21 +0000  1728224 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-10-03 12:15:22 +0000  1422688 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-10-03 12:15:22 +0000  500256 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-10-03 12:15:22 +0000  3090064 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-10-03 12:15:22 +0000  603200 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-10-03 12:15:22 +0000  257856 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-10-03 12:15:22 +0000  804960 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-10-03 12:15:22 +0000  311568 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-10-03 12:15:23 +0000  31309856 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-10-03 12:15:23 +0000  copying file ./Symbols/3ACD2C55-8690-328B-902F-2AC7B955DDE9.symbols ... 
+2018-10-03 12:15:23 +0000  288504 bytes for ./Symbols/3ACD2C55-8690-328B-902F-2AC7B955DDE9.symbols
+copying file ./Symbols/47602D64-B386-38DF-BB55-0BF69D1319D8.symbols ... 
+2018-10-03 12:15:23 +0000  2704 bytes for ./Symbols/47602D64-B386-38DF-BB55-0BF69D1319D8.symbols
+copying file ./Symbols/740D9A12-EDE8-3746-A3D7-24BC26C3CFA6.symbols ... 
+2018-10-03 12:15:23 +0000  110328 bytes for ./Symbols/740D9A12-EDE8-3746-A3D7-24BC26C3CFA6.symbols
+copying file ./Symbols/EC84E5CA-E724-3BFE-9A28-5DF0DA1BD47F.symbols ... 
+2018-10-03 12:15:23 +0000  2872 bytes for ./Symbols/EC84E5CA-E724-3BFE-9A28-5DF0DA1BD47F.symbols
+copying file ./Symbols/95FC28C8-3411-38C7-B5DB-9EBD94B5F5F7.symbols ... 
+2018-10-03 12:15:23 +0000  21448 bytes for ./Symbols/95FC28C8-3411-38C7-B5DB-9EBD94B5F5F7.symbols
+copying file ./Symbols/CEE72C40-2016-3CAA-A066-19A536F3504B.symbols ... 
+2018-10-03 12:15:23 +0000  2704 bytes for ./Symbols/CEE72C40-2016-3CAA-A066-19A536F3504B.symbols
+copying file ./Symbols/0D469632-518C-3F90-A68A-62594E1ADD63.symbols ... 
+2018-10-03 12:15:23 +0000  1950232 bytes for ./Symbols/0D469632-518C-3F90-A68A-62594E1ADD63.symbols
+copying file ./Symbols/B85251CA-31AB-3BA2-B3E6-2250125F3DF5.symbols ... 
+2018-10-03 12:15:23 +0000  2872 bytes for ./Symbols/B85251CA-31AB-3BA2-B3E6-2250125F3DF5.symbols
+copying file ./Symbols/7F664029-75CE-3AC3-B7D5-4ADBF568414F.symbols ... 
+2018-10-03 12:15:23 +0000  21448 bytes for ./Symbols/7F664029-75CE-3AC3-B7D5-4ADBF568414F.symbols
+2018-10-03 12:15:23 +0000  copying file ./Symbols/F12075CF-FC6B-3796-858C-862BC8AE8E8E.symbols ... 
+2018-10-03 12:15:23 +0000  8032 bytes for ./Symbols/F12075CF-FC6B-3796-858C-862BC8AE8E8E.symbols
+copying file ./Symbols/4FA31041-88BE-3446-A04C-5C14FADC34D2.symbols ... 
+2018-10-03 12:15:23 +0000  1940888 bytes for ./Symbols/4FA31041-88BE-3446-A04C-5C14FADC34D2.symbols
+copying file ./Symbols/603AA4B4-4EAE-3F5B-ACD2-EFA5B0EEBC16.symbols ... 
+2018-10-03 12:15:23 +0000  122792 bytes for ./Symbols/603AA4B4-4EAE-3F5B-ACD2-EFA5B0EEBC16.symbols
+copying file ./Symbols/7E0759FC-89B8-31CC-9EDA-F25A7F1E23B9.symbols ... 
+2018-10-03 12:15:23 +0000  16064 bytes for ./Symbols/7E0759FC-89B8-31CC-9EDA-F25A7F1E23B9.symbols
+copying file ./Symbols/819CAC28-9F16-3C05-A8D3-4D546FACDAC2.symbols ... 
+2018-10-03 12:15:23 +0000  8032 bytes for ./Symbols/819CAC28-9F16-3C05-A8D3-4D546FACDAC2.symbols
+copying file ./Symbols/3775880E-70BF-3FFC-8225-73CF940C2166.symbols ... 
+2018-10-03 12:15:23 +0000  287008 bytes for ./Symbols/3775880E-70BF-3FFC-8225-73CF940C2166.symbols
+copying file ./Symbols/A7D36357-4513-3A5B-B7EA-A4DC086DE0F1.symbols ... 
+2018-10-03 12:15:23 +0000  4019328 bytes for ./Symbols/A7D36357-4513-3A5B-B7EA-A4DC086DE0F1.symbols
+copying file ./Symbols/DE93A4CE-22D7-3CD1-B0D7-DE65E091C3A6.symbols ... 
+2018-10-03 12:15:23 +0000  25704 bytes for ./Symbols/DE93A4CE-22D7-3CD1-B0D7-DE65E091C3A6.symbols
+copying file ./Symbols/9C19C8F4-5AD3-35B0-BB02-F6536AF68E21.symbols ... 
+25704 bytes for ./Symbols/9C19C8F4-5AD3-35B0-BB02-F6536AF68E21.symbols
+copying file ./Symbols/3A5C52E4-8DE8-360F-A734-DBD861251334.symbols ... 
+2018-10-03 12:15:23 +0000  4030280 bytes for ./Symbols/3A5C52E4-8DE8-360F-A734-DBD861251334.symbols
+copying file ./Symbols/B0F70B40-C501-3BCF-8CA9-7ED3F4CC71F1.symbols ... 
+2018-10-03 12:15:23 +0000  47744 bytes for ./Symbols/B0F70B40-C501-3BCF-8CA9-7ED3F4CC71F1.symbols
+copying file ./Symbols/ED885885-E739-3456-9372-FB99E057D8D7.symbols ... 
+2018-10-03 12:15:23 +0000  124728 bytes for ./Symbols/ED885885-E739-3456-9372-FB99E057D8D7.symbols
+copying file ./Symbols/F820467B-CD1D-33FF-8E8E-AF27E1A42D7F.symbols ... 
+2018-10-03 12:15:23 +0000  8224 bytes for ./Symbols/F820467B-CD1D-33FF-8E8E-AF27E1A42D7F.symbols
+copying file ./Symbols/0DACE146-47B3-33AC-8A64-D9470C98555D.symbols ... 
+2018-10-03 12:15:23 +0000  111888 bytes for ./Symbols/0DACE146-47B3-33AC-8A64-D9470C98555D.symbols
+copying file ./Symbols/C841181E-1EA9-3B57-BB07-0D612FA4F29A.symbols ... 
+2018-10-03 12:15:23 +0000  288576 bytes for ./Symbols/C841181E-1EA9-3B57-BB07-0D612FA4F29A.symbols
+copying file ./Symbols/D2ED2678-ACFD-3D5B-99F6-9E93CCE53589.symbols ... 
+2018-10-03 12:15:23 +0000  4018720 bytes for ./Symbols/D2ED2678-ACFD-3D5B-99F6-9E93CCE53589.symbols
+copying file ./Symbols/21AF0E53-A2F5-3124-AEF1-1C1998546A1D.symbols ... 
+2018-10-03 12:15:23 +0000  2784 bytes for ./Symbols/21AF0E53-A2F5-3124-AEF1-1C1998546A1D.symbols
+copying file ./Symbols/286221B3-B5CA-36C1-B204-7AF17B12EDA0.symbols ... 
+2018-10-03 12:15:23 +0000  49248 bytes for ./Symbols/286221B3-B5CA-36C1-B204-7AF17B12EDA0.symbols
+2018-10-03 12:15:23 +0000  copying file ./Symbols/0F50398A-953A-3682-97A0-161D416ACBBD.symbols ... 
+2018-10-03 12:15:23 +0000  16136 bytes for ./Symbols/0F50398A-953A-3682-97A0-161D416ACBBD.symbols
+copying file ./Symbols/C22F7494-824E-3B40-89B5-5C0E29DB1E03.symbols ... 
+2018-10-03 12:15:23 +0000  24880 bytes for ./Symbols/C22F7494-824E-3B40-89B5-5C0E29DB1E03.symbols
+copying file ./Symbols/B959F46C-0B08-3569-8794-DE84F1D87C5D.symbols ... 
+2018-10-03 12:15:23 +0000  124792 bytes for ./Symbols/B959F46C-0B08-3569-8794-DE84F1D87C5D.symbols
+copying file ./Symbols/8FDE6DB9-FE90-343B-9E8F-BBFFC75E9925.symbols ... 
+2018-10-03 12:15:23 +0000  49248 bytes for ./Symbols/8FDE6DB9-FE90-343B-9E8F-BBFFC75E9925.symbols
+copying file ./Symbols/7C813121-E55F-3B80-80B1-940E951491C0.symbols ... 
+2018-10-03 12:15:23 +0000  16136 bytes for ./Symbols/7C813121-E55F-3B80-80B1-940E951491C0.symbols
+copying file ./Symbols/015C9A5A-C382-3553-8EC9-2372693D4215.symbols ... 
+2018-10-03 12:15:23 +0000  111888 bytes for ./Symbols/015C9A5A-C382-3553-8EC9-2372693D4215.symbols
+copying file ./Symbols/1BF417CF-A36D-3CCA-B663-2583DC7B2952.symbols ... 
+2018-10-03 12:15:23 +0000  2840 bytes for ./Symbols/1BF417CF-A36D-3CCA-B663-2583DC7B2952.symbols
+copying file ./Symbols/3E09B00D-B7FE-399E-A01B-EEF5A9DEB922.symbols ... 
+2018-10-03 12:15:23 +0000  1950376 bytes for ./Symbols/3E09B00D-B7FE-399E-A01B-EEF5A9DEB922.symbols
+copying file ./Symbols/369AF295-DBEB-380F-820B-EAEA8A1E3A30.symbols ... 
+2018-10-03 12:15:23 +0000  21800 bytes for ./Symbols/369AF295-DBEB-380F-820B-EAEA8A1E3A30.symbols
+2018-10-03 12:15:23 +0000  /usr/bin/ditto exited with 0
+2018-10-03 12:15:23 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2018-10-03 12:15:23 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2018-10-03 12:15:23 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-10-03 12:15:23 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
