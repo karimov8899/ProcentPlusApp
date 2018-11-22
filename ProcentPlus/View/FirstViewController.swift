@@ -62,6 +62,8 @@ class FirstViewController: UIViewController {
                 if let headers = response.response?.allHeaderFields as? [String: String]{
                     let newuser = headers["Authorization"]
                     UserDefaults.standard.set(newuser, forKey: "Token")
+                    UserDefaults.standard.set(self.emailTextField.text!, forKey:"Email")
+                    UserDefaults.standard.set(self.passTextField.text!, forKey:"Password")
                     UserDefaults.standard.synchronize()
                     self.performSegue(withIdentifier: "authorize", sender: self)
                     

@@ -109,6 +109,7 @@ class RegistrationViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
             
         } else {
+            
             // Запрос после валидации всех полей
             
             Alamofire.request("http://procentplus.com/api/mobile_users", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: head).responseString{

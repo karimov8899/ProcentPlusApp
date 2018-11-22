@@ -942,6 +942,9 @@
                                 <state key="normal" title="Отправить">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="searchAction:" destination="4Ws-kU-NWg" eventType="touchUpInside" id="gUl-fJ-7KB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

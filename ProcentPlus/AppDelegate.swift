@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().isTranslucent = true
         UINavigationBar.appearance().tintColor = UIColor.black
         if UserDefaults.standard.string(forKey: "Token") != nil{
+            
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let authorized = storyboard.instantiateViewController(withIdentifier: "blue") as? UITabBarController
             self.window?.rootViewController = authorized
