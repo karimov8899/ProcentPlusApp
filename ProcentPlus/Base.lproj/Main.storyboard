@@ -12,7 +12,7 @@
         <!--First View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="ProcentPlus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="authorization" id="BYZ-38-t0r" customClass="FirstViewController" customModule="ProcentPlus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,6 +73,9 @@
                                 <state key="normal" title="Войти">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bfs-OA-lON"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="cBu-Vy-dJU">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
@@ -148,6 +151,7 @@
                         <outlet property="emailTextField" destination="1HK-fn-sWN" id="tuF-W6-AWs"/>
                         <outlet property="goButton" destination="TfU-6B-cQT" id="Xcs-JI-ZYL"/>
                         <outlet property="passTextField" destination="SUb-FT-Rry" id="7LB-Cr-5ud"/>
+                        <segue destination="zpc-nu-wSZ" kind="show" identifier="authorize" id="tN5-sB-4cy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -392,7 +396,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="sJb-q9-sIE"/>
+                                    <action selector="passSend:" destination="wgg-r7-vEE" eventType="touchUpInside" id="w9V-EP-Spe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r11-Kq-adm">
@@ -454,6 +458,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="v3k-s5-l5e" id="5Hr-Jw-JM4"/>
                         <outlet property="goButton" destination="dp0-9U-y6W" id="ssd-0L-Z5h"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="passSend" id="JEp-ef-skA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hyy-ID-dfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -983,7 +988,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="3H4-2i-mTg">
             <objects>
-                <tabBarController id="zpc-nu-wSZ" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="blue" id="zpc-nu-wSZ" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xhl-V5-Dde">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1145,7 +1150,7 @@
         <!--Navigation Controller-->
         <scene sceneID="0Ur-34-F1e">
             <objects>
-                <navigationController id="zAZ-c9-Vi0" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navigation" id="zAZ-c9-Vi0" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zRJ-U8-h8r">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1178,6 +1183,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="G1w-ZV-2e5"/>
-        <segue reference="r7t-qc-Ntb"/>
+        <segue reference="JEp-ef-skA"/>
     </inferredMetricsTieBreakers>
 </document>

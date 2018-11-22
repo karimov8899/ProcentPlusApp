@@ -24,7 +24,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Set translucent. (Default value is already true, so this can be removed if desired.)
         UINavigationBar.appearance().isTranslucent = true
         UINavigationBar.appearance().tintColor = UIColor.black
+        if UserDefaults.standard.string(forKey: "Token") != nil{
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let authorized = storyboard.instantiateViewController(withIdentifier: "blue") as? UITabBarController
+            self.window?.rootViewController = authorized
+            
+        }
+        else {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let navigation = storyboard.instantiateViewController(withIdentifier: "navigation") as? UINavigationController
+            self.window?.rootViewController = navigation
+        }
         return true
+        
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
