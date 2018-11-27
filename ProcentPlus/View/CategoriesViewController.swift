@@ -7,23 +7,58 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
-class CategoriesViewController: UIViewController {
-    @IBOutlet weak var buttonOne: UIButton!
-    @IBOutlet weak var buttonTwo: UIButton!
+class CategoriesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
     
+    var login_details : [UserModel] = []
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    
+    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       // buttonOne.layer.borderWidth = 1
-       // buttonOne.layer.borderColor = UIColor.red.cgColor
+ 
+        // This view controller itself will provide the delegate methods and row data for the table view.
+        tableView.delegate = self
+        tableView.dataSource = self
         
-       // buttonTwo.layer.borderWidth = 1
-       // buttonTwo.layer.borderColor = UIColor.red.cgColor
+        let right = UISwipeGestureRecognizer(target : self, action : #selector(rightSwipe))
+        right.direction = .right
+        view.addGestureRecognizer(right)
         
     }
     
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.login_details.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier") as! CustomTableViewCell
+        
+       // let text = data[indexPath.row]
+       cell.label.text! = login_details[indexPath.row].name
+        
+        return cell
+    }
+    // method to run when table view cell is tapped
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("You tapped cell number \(indexPath.row).")
+    }
+    
+    @objc func rightSwipe(){
+        performSegue(withIdentifier: "rightSwipe", sender: nil)
+    }
+    
+    
+        
+    
+   
+   
+    
     /*
     // MARK: - Navigation
 

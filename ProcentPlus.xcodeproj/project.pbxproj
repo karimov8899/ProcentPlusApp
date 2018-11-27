@@ -22,6 +22,7 @@
 		2CD604542163A81D008D3F03 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD604532163A81D008D3F03 /* RegistrationViewController.swift */; };
 		2CD604562163A835008D3F03 /* CheckSmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD604552163A835008D3F03 /* CheckSmsViewController.swift */; };
 		2CD604582163A84C008D3F03 /* PassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD604572163A84C008D3F03 /* PassViewController.swift */; };
+		552F4DA421A8300C0071232D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F4DA321A8300C0071232D /* CustomTableViewCell.swift */; };
 		6A7AC7102B66643155CBE243 /* Pods_ProcentPlusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443BD8E4FD2C000552DE26C6 /* Pods_ProcentPlusTests.framework */; };
 		76AF9172A8CFB6FF6605BDFE /* Pods_ProcentPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C85B1F28C6FC619F6802DA /* Pods_ProcentPlus.framework */; };
 		D656051075B71E555B3EB139 /* Pods_ProcentPlusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF2A601F9BCEC7DF52CEAA5 /* Pods_ProcentPlusUITests.framework */; };
@@ -71,6 +72,7 @@
 		443BD8E4FD2C000552DE26C6 /* Pods_ProcentPlusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProcentPlusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B984ED1649522B2D8A0C018 /* Pods-ProcentPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProcentPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProcentPlus/Pods-ProcentPlus.release.xcconfig"; sourceTree = "<group>"; };
 		4D0392FED0CE9DFF593B405F /* Pods-ProcentPlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProcentPlusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProcentPlusUITests/Pods-ProcentPlusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		552F4DA321A8300C0071232D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		BCF2A601F9BCEC7DF52CEAA5 /* Pods_ProcentPlusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProcentPlusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4689489403EB81696F1A6D2 /* Pods-ProcentPlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProcentPlusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProcentPlusTests/Pods-ProcentPlusTests.release.xcconfig"; sourceTree = "<group>"; };
 		E94479DC1F0F10D782D74CA8 /* Pods-ProcentPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProcentPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProcentPlus/Pods-ProcentPlus.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				2CBF8D5B2164B202002654DA /* BonusViewController.swift */,
 				2CBF8D5D2164B210002654DA /* FirmsViewController.swift */,
 				2CBF8D5F2164B220002654DA /* InfoViewController.swift */,
+				552F4DA321A8300C0071232D /* CustomTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			files = (
 				2CBF8D582164B1E6002654DA /* SearchViewController.swift in Sources */,
 				2CD604522163A805008D3F03 /* FirstViewController.swift in Sources */,
+				552F4DA421A8300C0071232D /* CustomTableViewCell.swift in Sources */,
 				2CBF8D5C2164B202002654DA /* BonusViewController.swift in Sources */,
 				2CD604542163A81D008D3F03 /* RegistrationViewController.swift in Sources */,
 				2CBF8D602164B220002654DA /* InfoViewController.swift in Sources */,
