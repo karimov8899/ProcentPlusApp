@@ -12,11 +12,15 @@ class InfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let right = UISwipeGestureRecognizer(target : self, action : #selector(rightSwipe))
+        right.direction = .right
+        view.addGestureRecognizer(right)
         // Do any additional setup after loading the view.
     }
     
-
+    @objc func rightSwipe(){
+        performSegue(withIdentifier: "infoSwipe", sender: nil)
+    }
     /*
     // MARK: - Navigation
 

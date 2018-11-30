@@ -15,7 +15,7 @@ struct UserModel {
     
     var id: Int
     var name: String
-    var partnerId : Int
+    var activityId : Int
     var city : String
 }
 
@@ -32,7 +32,8 @@ class SearchViewController: UIViewController {
     @IBOutlet weak var addressLabel: UILabel!
     var parameters: Parameters? = [:]
     var usersData : [UserModel] =  []
-    
+    var segueEnabled = 1
+
     @IBAction func segmented(_ sender: Any) {
         if (case3search.selectedSegmentIndex == 1) {
             cityLabel.text = "Название"
@@ -56,7 +57,7 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: Selector("endEditing:")))
         goButton.layer.cornerRadius = 25
         
         sityTextField.layer.cornerRadius = 25
@@ -100,7 +101,7 @@ class SearchViewController: UIViewController {
                 if (sityTextField.text! == "" && adressTextField.text! != ""){
                     parameters = [
                         "search_params": [
-                            [    "param":  "address",
+                            [    "param":  "city",
                                  "value":   adressTextField.text!
                             ]
                         ]
@@ -129,7 +130,7 @@ class SearchViewController: UIViewController {
                 
                     parameters = [
                         "search_params": [
-                            [    "param":  "name",
+                            [    "param":  "company_name",
                                  "value": sityTextField.text!
                             ]
                         ]
@@ -154,46 +155,7 @@ class SearchViewController: UIViewController {
             }
         }
     }
-    
-    
-    /* struct Post {
-        
-        var id: Int
-        var name: String
-        var partnerId : Int
-        var city : String
-        
-        init?(json: [String: Any]) {
-            
-            guard
-                let name = json["name"] as? String,
-                let id = json["id"] as? Int,
-                let partnerId = json["partner_id"] as? Int,
-                let city = json["city"] as? String
-                else {
-                    return nil
-            }
-            
-            self.name = name
-            self.id = id
-            self.partnerId = partnerId
-            self.city = city
-        }
-        
-        static func getArray(from jsonArray: Any) -> [Post]? {
-            
-            guard let jsonArray = jsonArray as? Array<[String: Any]> else { return nil }
-            var posts: [Post] = []
-            
-            for jsonObject in jsonArray {
-                if let post = Post(json: jsonObject) {
-                    posts.append(post)
-                }
-            }
-            return posts
-        }
-    } */
-    
+     
     // Запрос
     func request() {
         // Header запроса
@@ -206,33 +168,16 @@ class SearchViewController: UIViewController {
         
         // Параметры запроса
         
-       /* Alamofire.request("http://procentplus.com/api/point_of_sales/search", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: head).responseString{
-            (response) in
-            guard let statusCode = response.response?.statusCode else { return }
-            if (200..<300).contains(statusCode) {
-                self.myjson = JSON(response.result.value!)
-                DispatchQueue.main.async(execute: { () -> Void in
-                    self.performSegue(withIdentifier: "searchSegue", sender: self.myjson)
-                })
-                
-            } else {
-                
-                let alert = UIAlertController(title: "Ошибка регистрации", message: "Проверьте корректность данных", preferredStyle: .alert)
-                let alertaction =  UIAlertAction(title: "Проверить", style: .destructive, handler: nil)
-                alert.addAction(alertaction)
-                self.present(alert, animated: true, completion: nil)
-            }
-        } */
-        Alamofire.request("http://procentplus.com/api/point_of_sales/search", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: head).responseJSON(completionHandler: { (response) in
+        Alamofire.request("http://procentplus.com/api/partners/search", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: head).responseJSON(completionHandler: { (response) in
             switch response.result {
             case .success(let value) :
                 let json = JSON(value)
-                json["point_of_sales"].array?.forEach({
+                json["partners"].array?.forEach({
                     (user) in
-                    let user = UserModel(id: user["id"].intValue, name: user["name"].stringValue,partnerId: user["partner_id"].intValue, city: user["city"].stringValue)
+                    let user = UserModel(id: user["id"].intValue, name: user["name"].stringValue,activityId: user["activity_type_id"].intValue, city: user["city"].stringValue)
                     self.usersData.append(user)
                     DispatchQueue.main.async(execute: { () -> Void in
-                        self.performSegue(withIdentifier: "searchSegue", sender: self.usersData)
+                        self.performSegue(withIdentifier: "searchSegue", sender: self.usersData) 
                         
                     })
                     print(self.usersData)
@@ -289,8 +234,9 @@ class SearchViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "searchSegue" {
-            let theDestination = (segue.destination as? CategoriesViewController)
+            let theDestination = (segue.destination as? FirmsViewController)
             theDestination?.login_details = usersData
+            theDestination?.segueEnabled = segueEnabled
         }
         
     }

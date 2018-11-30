@@ -170,9 +170,9 @@
 				2CD604572163A84C008D3F03 /* PassViewController.swift */,
 				2CBF8D572164B1E6002654DA /* SearchViewController.swift */,
 				2CBF8D592164B1F4002654DA /* CategoriesViewController.swift */,
-				2CBF8D5B2164B202002654DA /* BonusViewController.swift */,
 				2CBF8D5D2164B210002654DA /* FirmsViewController.swift */,
 				2CBF8D5F2164B220002654DA /* InfoViewController.swift */,
+				2CBF8D5B2164B202002654DA /* BonusViewController.swift */,
 				552F4DA321A8300C0071232D /* CustomTableViewCell.swift */,
 			);
 			path = View;
