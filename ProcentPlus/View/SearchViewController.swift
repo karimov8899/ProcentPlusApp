@@ -179,8 +179,7 @@ class SearchViewController: UIViewController {
                     DispatchQueue.main.async(execute: { () -> Void in
                         self.performSegue(withIdentifier: "searchSegue", sender: self.usersData) 
                         
-                    })
-                    print(self.usersData)
+                    }) 
                 }) 
             case .failure(let error):
                 print(error.localizedDescription)
