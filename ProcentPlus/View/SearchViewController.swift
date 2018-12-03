@@ -9,19 +9,55 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+
+    
+struct UserModel {
+    
+    var id: Int
+    var name: String
+    var activityId : Int
+    var city : String
+}
+
+
+    
+
 class SearchViewController: UIViewController {
 
     @IBOutlet weak var goButton: UIButton!
     @IBOutlet weak var sityTextField: UITextField!
     @IBOutlet weak var adressTextField: UITextField!
     @IBOutlet weak var case3search: UISegmentedControl!
-    
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
     var parameters: Parameters? = [:]
+    var usersData : [UserModel] =  []
+    var segueEnabled = 1
+
+    @IBAction func segmented(_ sender: Any) {
+        if (case3search.selectedSegmentIndex == 1) {
+            cityLabel.text = "Название"
+            addressLabel.isHidden = true
+            adressTextField.isHidden = true
+        }
+        else if (case3search.selectedSegmentIndex == 2) {
+            cityLabel.text = "Id"
+            addressLabel.isHidden = true
+            adressTextField.isHidden = true
+        }
+        else {
+            cityLabel.text = "Город"
+            addressLabel.isHidden = false
+            adressTextField.isHidden = false
+        }
+    }
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: Selector("endEditing:")))
         goButton.layer.cornerRadius = 25
         
         sityTextField.layer.cornerRadius = 25
@@ -46,69 +82,120 @@ class SearchViewController: UIViewController {
     
     @IBAction func searchAction(_ sender: Any) {
       searching()
+      print(sityTextField.text!)
+        print(adressTextField.text!)
     }
     
+    // Поиск по выбранным параметрам
     
     func searching() {
-        
-        if (case3search.selectedSegmentIndex == 0) {
-            if (sityTextField.text! != "nil" && adressTextField.text! == "nil" || sityTextField.text! != "nil" && adressTextField.text! != "nil") {
+        if (sityTextField.text! == "" && adressTextField.text! == "") {
+            let alert = UIAlertController(title: "Ошибка", message: "Незаполнены поля", preferredStyle: .alert)
+            let alertaction =  UIAlertAction(title: "Проверить", style: .destructive, handler: nil)
+            alert.addAction(alertaction)
+            self.present(alert, animated: true, completion: nil)
+        }
+        else {
+            // Поиск по адресу и городу
+            if (case3search.selectedSegmentIndex == 0) {
+                if (sityTextField.text! == "" && adressTextField.text! != ""){
+                    parameters = [
+                        "search_params": [
+                            [    "param":  "city",
+                                 "value":   adressTextField.text!
+                            ]
+                        ]
+                        
+                    ]
+                    request()
+                }
+                else  {
+                    parameters = [
+                        "search_params": [
+                            [    "param":  "city",
+                                 "value":   sityTextField.text!
+                            ]
+                        ]
+                        
+                    ]
+                    request()
+                    
+                }
+                
+            }
+                
+            // Поиск по названию
+            else if (case3search.selectedSegmentIndex == 1) {
+                
+                
+                    parameters = [
+                        "search_params": [
+                            [    "param":  "company_name",
+                                 "value": sityTextField.text!
+                            ]
+                        ]
+                        
+                    ]
+                    request()
+                
+                
+            }
+                
+            // Поиск по id
+            else {
                 parameters = [
                     "search_params": [
-                    "param": "address",
-                    "value": adressTextField.text!
+                        [    "param":  "id",
+                             "value": sityTextField.text!
+                        ]
                     ]
                     
                 ]
                 request()
-                
             }
-        } else if (case3search.selectedSegmentIndex == 1) {
-            
-        } else {
-            
         }
     }
+     
     // Запрос
     func request() {
         // Header запроса
         
         let head : HTTPHeaders = [
             "Content-Type":"application/json",
-            "Auntification": UserDefaults.standard.string(forKey: "Token")!
+            "Authorization" : UserDefaults.standard.string(forKey: "Token")!
         
         ]
         
         // Параметры запроса
         
-        Alamofire.request("http://procentplus.com/api/point_of_sales/search", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: head).responseJSON{
-            responseJSON in
-            guard let statusCode = responseJSON.response?.statusCode else { return }
-            
-            if (200..<300).contains(statusCode) {
-                
-                print("ureee")
-                
-            } else {
-                
-                let alert = UIAlertController(title: "Ошибка регистрации", message: "Проверьте корректность данных", preferredStyle: .alert)
-                let alertaction =  UIAlertAction(title: "Проверить", style: .destructive, handler: nil)
-                alert.addAction(alertaction)
-                self.present(alert, animated: true, completion: nil)
-                print(UserDefaults.standard.string(forKey: "Token")!)
-                print(self.parameters)
+        Alamofire.request("http://procentplus.com/api/partners/search", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: head).responseJSON(completionHandler: { (response) in
+            switch response.result {
+            case .success(let value) :
+                let json = JSON(value)
+                json["partners"].array?.forEach({
+                    (user) in
+                    let user = UserModel(id: user["id"].intValue, name: user["name"].stringValue,activityId: user["activity_type_id"].intValue, city: user["city"].stringValue)
+                    self.usersData.append(user)
+                    DispatchQueue.main.async(execute: { () -> Void in
+                        self.performSegue(withIdentifier: "searchSegue", sender: self.usersData) 
+                        
+                    }) 
+                }) 
+            case .failure(let error):
+                print(error.localizedDescription)
             }
-            
-        }
+        })
     }
+    
+    // Обновление токена при загрузке
     
     func refresh() {
         let head : HTTPHeaders = [
             "Content-Type":"application/json"]
         let parameters: Parameters = [
             "mobile_user": [
-                "email": "sohin569@gmail.com",
-                "password": "password"
+                "email": UserDefaults.standard.string(forKey: "Email")!,
+                "password": UserDefaults.standard.string(forKey: "Password")!
             ]
         ]
         
@@ -139,10 +226,18 @@ class SearchViewController: UIViewController {
                 alert.addAction(alertaction)
                 self.present(alert, animated: true, completion: nil)
                 
-                print("neaa")
             }
             
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "searchSegue" {
+            let theDestination = (segue.destination as? FirmsViewController)
+            theDestination?.login_details = usersData
+            theDestination?.segueEnabled = segueEnabled
+        }
+        
     }
 
 }

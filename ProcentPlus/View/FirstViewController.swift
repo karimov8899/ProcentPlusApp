@@ -33,9 +33,7 @@ class FirstViewController: UIViewController {
         passTextField.layer.borderWidth = 1.0;
         passTextField.layer.borderColor = UIColor.darkGray.cgColor
         passTextField.layer.masksToBounds = true
-        
-
-        //test 
+   
         // Do any additional setup after loading the view.
     }
     @IBAction func login(_ sender: Any) {
